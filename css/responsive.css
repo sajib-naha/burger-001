@@ -1,0 +1,34 @@
+ /*
+	*Divice:galaxy fold
+        *skin Resulation:279px to 319px
+	*/
+        @media (min-width: 279px) and (max-width: 319px){
+	
+        }
+
+        /*
+	*Divice:Most of the movile phones
+	*skin Resulation:320px to 480px
+	*/
+	@media (min-width: 320px) and (max-width: 480px){
+		.banner .inner-banner h1{
+			font-size: 60px;
+		}
+		.event .owl-carousel{
+			width: 96%;
+		}
+	}
+	/*
+	*Divice: Most of the law resulation tablets
+	*skin Resulation:481px to 767px
+	*/
+	@media (min-width: 481px) and (max-width: 767px){
+	
+	}
+	/*
+	*Divice: Most of the tablets, ipad, mini notebook
+	*skin Resulation:768px to 1024px
+	*/
+	@media (min-width: 768px) and (max-width: 1024px){
+	
+	}

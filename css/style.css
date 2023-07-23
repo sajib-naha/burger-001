@@ -1,0 +1,386 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Alfa Slab One', cursive;
+	line-height: 1.2em;
+}
+a, a:hover{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.header{
+	width: 100%;
+	padding: 20px 0px 80px;
+	background: url("../images/b1.png") center top no-repeat;
+	background-size: cover;
+}
+.header p {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px 10px 0px 0px;
+    color: #3d2514;
+    text-align: right;
+}
+.header p a{
+	text-decoration: none;
+	color: #3d2514;
+
+}
+.header .navbar-expand-lg .navbar-nav .nav-link {
+	font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 3px;
+    margin: 0px 0px 0px 20px;
+    transition: 1s;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover, .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	color: #bf2222;
+}
+.banner{
+	width: 100%;
+	padding: 120px 0px 80px;
+}
+.banner .inner-banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner .inner-banner h4{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1.2em;
+    color: #3d2514;
+
+}
+.banner .inner-banner h4 span{
+	width: auto;
+	padding: 10px 15px;
+	border: 2px dashed #3d2514;
+}
+.banner .inner-banner h1 {
+    font-size: 90px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: #3d2514;
+    text-shadow: 3px 5px #fee8bc;    
+}
+.banner .inner-banner h3 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px #fee8bc;
+    color: #3d2514;
+    margin: 20px 0px 60px;
+}
+.feature{
+	display: block;
+	width: 100%;
+	padding: 80px 0px 60px;
+}
+.feature .card{
+	margin-bottom: 35px;
+}
+.feature .card .card-title{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1.2em;
+    color: #fff;
+    margin: 20px 0px 0px 20px;
+}
+.feature .card .card-text{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 38px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1.2em;
+    color: #fff;
+    margin: 0px 0px 0px 20px;
+}
+.choose{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.choose h5{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+    color: #3d2514;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.choose h5 span{
+	width: auto;
+	padding: 7px 20px;
+	background: #ffc045;
+	border: 1px solid #ffc045;
+}
+.choose h2{
+	font-size: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+    color: #3d2514;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 40px 0px 20px;
+}
+.choose .lorem{
+	font-size: 14px;
+	font-weight: 400;
+    color: #3d2514;
+    text-align: center;
+    line-height: 1.7em;
+    margin-bottom: 80px;
+}
+.choose .card{
+	width: 100%;
+	border: none;
+}
+.choose .card .big-burger{
+    width: 97%;
+    margin-top: 10px;
+}
+.choose .card .card-body{
+	text-align: center;
+}
+.choose .card .card-body .card-title{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1.2em;
+    color: #3d2514;
+    margin: 0px;
+}
+.choose .card .card-body .card-text{
+	font-size: 14px;
+	font-weight: 400;
+    color: #3d2514;
+    line-height: 1.7em;
+    margin-bottom: 20px;
+}
+.choose .card .card-body .btn-primary{
+	width: auto;
+	font-size: 16px;
+	font-weight: 600;
+    color: #fff;
+    padding: 10px 28px;
+    background: #bf2222;
+    border: 1px solid #bf2222;
+    border-radius: 0px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.choose .card .card-body .btn-primary:hover, .choose .card .card-body .btn-primary:focus{
+	color: #3d2514;
+	background: #ffc045;
+	border: 1px solid #ffc045;
+}
+.event{
+	width: 100%;
+	padding: 20px 0px 60px;
+}
+.event .owl-carousel{
+	padding: 30px 30px 30px;
+	box-shadow: 7px 10px 12px 10px #ccc;
+}
+.event .owl-carousel .item h5{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 2px;
+    margin: 40px 0px 0px 20px;
+}
+.event .owl-carousel .item h3{
+	font-size: 35px;
+	font-weight: 600;
+	text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 2px;
+    margin: 0px 0px 5px 20px;
+}
+.event .owl-carousel .item p{
+	font-size: 20px;
+	font-weight: 400;
+    color: #3d2514;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    margin: 15px 0px 0px 20px;
+}
+.event .owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    margin: -50px 0px 0px 15px;
+}
+.event .owl-theme .owl-dots .owl-dot span {
+    width: 18px;
+    height: 18px;
+    background: #dcdcdc;
+}
+.event .owl-theme .owl-dots .owl-dot.active span, .event .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+.contact-us{
+	width: 100%;
+	padding: 0px 0px 80px;
+	background: url("../images/b2.png") center top no-repeat;
+	background-size: cover;
+}
+.contact-us h5{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1.2em;
+    color: #3d2514;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 110px 0px 20px;
+}
+.contact-us h2{
+	font-size: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+    color: #3d2514;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 120px;
+}
+.contact-us .main-form{
+	width: 100%;
+	margin-bottom: 240px;
+}
+.contact-us .main-form .mb-3{
+	margin-bottom: 25px;
+}
+.contact-us .main-form .form-control{
+	font-family: 'Bebas Neue', sans-serif;
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #bebebe;
+	border-radius: 3px;
+	color: #3d3d3d;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.contact-us .main-form .form-control:focus{
+	border-color: #bebebe;
+    box-shadow: 0 0 0 0.10rem #bebebe;
+}
+.contact-us .main-form a{
+	font-family: 'Alfa Slab One', cursive;
+	display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    padding: 16px;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	background-color: #bf2222;
+	transition: 1s;
+}
+.contact-us .main-form a:hover, .contact-us .main-form a:focus{
+	color: #3d2514;
+	background: #ffc045;
+	border: 1px solid #ffc045;
+}
+.footer{
+	width: 100%;
+	padding: 40px 0px;
+}
+.footer .main-footer{
+	width: 100%;
+	background: url("../images/Group.png") center top no-repeat;
+	background-size: cover;
+	padding: 80px 40px 20px;
+	z-index: 1;
+	margin-top: -150px;
+}
+.footer .main-footer .footer-img {
+	width: 23%;
+}
+.footer .main-footer .content{
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #fff;
+	padding: 40px 0px;
+}
+.footer .main-footer .inner-content{
+	width: 100%;
+	padding: 60px 10px 40px;
+}
+.footer .main-footer .inner-content .lorem .loca{
+	width: 7%;
+	margin: 0px 20px 0px 0px;
+}
+.footer .main-footer .inner-content .lorem{
+	font-size: 16px;
+	line-height: 1.2em;
+	font-weight: 400;
+	color: #fff;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 1px;
+}
+.footer .main-footer .copyright{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 60px;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.footer .main-footer li{
+	display: inline-block;
+	font-size: 20px;
+    list-style: none;
+    float: right;
+    margin-top: 60px;
+}
+.footer .main-footer li a{
+    color: #090809;
+    background: #fff;
+    border-radius: 100%;
+    margin: 0px 0px 0px 20px
+}
+.footer .main-footer li a:hover, .footer .main-footer li a:focus{
+	color: #25D366;
+    background: #fff;
+}
+.footer .main-footer li .fa-facebook {
+    padding: 2px 8px 2px 8px;
+}
+.footer .main-footer li .fa-twitter{
+	padding: 0px 4px;
+}
+.footer .main-footer li .fa-instagram{
+	padding: 1px 5px;
+}
+.footer .main-footer li .fa-whatsapp{
+	padding: 1px 5px;
+}
